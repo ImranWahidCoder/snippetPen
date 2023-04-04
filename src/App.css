@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import 'codemirror/lib/codemirror.css';
+@import 'codemirror/theme/material.css';
+@import 'codemirror/theme/monokai.css';
+@import 'codemirror/theme/midnight.css';
+@import 'codemirror/theme/moxer.css';
+@import 'codemirror/theme/dracula.css';
+@import 'codemirror/theme/seti.css';
+@import 'codemirror/theme/solarized.css';
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+    height: 40px;
+    border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #060606;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.codeEditor {
+    font-size: 17px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar button {
+    width: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.settings {
+    background-color: gray !important;
+    color: white !important;
+    width: 100% !important;
+    text-transform: none !important;
 }
