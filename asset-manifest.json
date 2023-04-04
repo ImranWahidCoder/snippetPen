@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/snippetPen/static/css/main.486882aa.css",
+    "main.js": "/snippetPen/static/js/main.b5583093.js",
+    "index.html": "/snippetPen/index.html",
+    "main.486882aa.css.map": "/snippetPen/static/css/main.486882aa.css.map",
+    "main.b5583093.js.map": "/snippetPen/static/js/main.b5583093.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.486882aa.css",
+    "static/js/main.b5583093.js"
+  ]
+}
